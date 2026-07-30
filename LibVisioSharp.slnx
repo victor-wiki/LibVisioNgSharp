@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LibVisioSharp.Viewer/LibVisioSharp.Viewer.csproj" Id="b59086d7-752c-48e4-a1d8-b19e79a26ee8" />
+  <Project Path="LibVisioSharp/LibVisioSharp.csproj" />
+</Solution>
