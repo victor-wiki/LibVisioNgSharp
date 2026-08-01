@@ -2601,9 +2601,9 @@ namespace LibVisioSharp
                         if (styleSheet != null)
                         {
                             var value = GetCellValue(styleSheet.Cells, "FillForegnd");
-                            var formular = GetCellFormula(styleSheet.Cells, "FillForegnd");
+                            var formula = GetCellFormula(styleSheet.Cells, "FillForegnd");
 
-                            if (value == "Themed" || formular == "THEMEVAL()")
+                            if (value == "Themed" || formula == "THEMEVAL()")
                             {
                                 foreach (var color in document.Colors.Reverse())
                                 {
