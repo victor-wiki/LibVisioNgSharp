@@ -1185,7 +1185,7 @@ namespace LibVisioSharp
                     {
                         foreach (var _cn in xy)
                         {
-                            var _cf = GetCellFormular(cells, _cn);
+                            var _cf = GetCellFormula(cells, _cn);
 
                             if (!string.IsNullOrEmpty(_cf) && _cf != "Inh")
                             {
@@ -2480,9 +2480,9 @@ namespace LibVisioSharp
             var fill_bkgnd = ColorHelper.ResolveColor(_get_cell_val(shape, "FillBkgnd"), theme_colors);
 
             // Also try resolving via formula if value is a color index
-            var _ff_formula = GetCellFormular(shape.Cells, "FillForegnd");
-            var _fb_formula = GetCellFormular(shape.Cells, "FillBkgnd");
-            var _lc_formula = GetCellFormular(shape.Cells, "LineColor");
+            var _ff_formula = GetCellFormula(shape.Cells, "FillForegnd");
+            var _fb_formula = GetCellFormula(shape.Cells, "FillBkgnd");
+            var _lc_formula = GetCellFormula(shape.Cells, "LineColor");
 
             // Resolve THEMEVAL formulas and QuickStyle colors from theme
             var qs_fill_color_val = _get_cell_val(shape, "QuickStyleFillColor");
@@ -2601,7 +2601,7 @@ namespace LibVisioSharp
                         if (styleSheet != null)
                         {
                             var value = GetCellValue(styleSheet.Cells, "FillForegnd");
-                            var formular = GetCellFormular(styleSheet.Cells, "FillForegnd");
+                            var formular = GetCellFormula(styleSheet.Cells, "FillForegnd");
 
                             if (value == "Themed" || formular == "THEMEVAL()")
                             {
@@ -5159,7 +5159,7 @@ namespace LibVisioSharp
             return defaultValue;
         }
 
-        private static string GetCellFormular(List<Cell> cells, string name)
+        private static string GetCellFormula(List<Cell> cells, string name)
         {
             var cell = cells.FirstOrDefault(item => item.Name == name);
 
