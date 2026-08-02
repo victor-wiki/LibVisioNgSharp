@@ -2605,15 +2605,9 @@ namespace LibVisioSharp
 
                             if (value == "Themed" || formula == "THEMEVAL()")
                             {
-                                foreach (var color in document.Colors.Reverse())
+                                if (theme_colors.ContainsKey("accent1"))
                                 {
-                                    string colorValue = color.Value;
-
-                                    if (theme_colors.ContainsValue(colorValue))
-                                    {
-                                        fill_foregnd = colorValue;
-                                        break;
-                                    }
+                                    fill_foregnd = theme_colors["accent1"];
                                 }
                             }
                         }
