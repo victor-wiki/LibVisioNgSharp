@@ -2,7 +2,7 @@ using Microsoft.Web.WebView2.WinForms;
 using Newtonsoft.Json;
 using System.ComponentModel;
 
-namespace LibVisioSharp.Viewer
+namespace LibVisioNgSharp.Viewer
 {
     public partial class frmMain : Form
     {

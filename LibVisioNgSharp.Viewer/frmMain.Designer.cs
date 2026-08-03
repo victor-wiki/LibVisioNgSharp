@@ -1,4 +1,4 @@
-﻿namespace LibVisioSharp.Viewer
+﻿namespace LibVisioNgSharp.Viewer
 {
     partial class frmMain
     {

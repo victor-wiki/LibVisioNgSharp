@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LibVisioNgSharp.Viewer/LibVisioNgSharp.Viewer.csproj" />
+  <Project Path="LibVisioNgSharp/LibVisioNgSharp.csproj" />
+</Solution>

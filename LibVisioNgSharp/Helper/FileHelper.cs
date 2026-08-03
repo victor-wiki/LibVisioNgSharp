@@ -1,4 +1,4 @@
-﻿namespace LibVisioSharp.Helper
+﻿namespace LibVisioNgSharp.Helper
 {
     public class FileHelper
     {

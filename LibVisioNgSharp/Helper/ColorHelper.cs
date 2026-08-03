@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace LibVisioSharp.Helper
+namespace LibVisioNgSharp.Helper
 {
     public class ColorHelper
     {

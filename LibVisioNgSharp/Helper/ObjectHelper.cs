@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace LibVisioSharp.Helper
+namespace LibVisioNgSharp.Helper
 {
     public class ObjectHelper
     {

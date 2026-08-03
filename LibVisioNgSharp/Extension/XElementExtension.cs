@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace LibVisioSharp.Extension
+namespace LibVisioNgSharp.Extension
 {
     public static class XElementExtension
     {

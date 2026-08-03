@@ -1,4 +1,4 @@
-﻿namespace LibVisioSharp.Model
+﻿namespace LibVisioNgSharp.Model
 {
     public class Row
     {

@@ -1,8 +1,8 @@
 ﻿using ICSharpCode.SharpZipLib.Core;
 using ImageMagick;
-using LibVisioSharp.Extension;
-using LibVisioSharp.Helper;
-using LibVisioSharp.Model;
+using LibVisioNgSharp.Extension;
+using LibVisioNgSharp.Helper;
+using LibVisioNgSharp.Model;
 using NaturalSort.Extension;
 using NCalc;
 using PowerPointConverter.Extension;
@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace LibVisioSharp
+namespace LibVisioNgSharp
 {
     public partial class Converter
     {

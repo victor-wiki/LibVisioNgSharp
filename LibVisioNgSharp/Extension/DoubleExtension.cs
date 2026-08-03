@@ -1,4 +1,4 @@
-﻿namespace LibVisioSharp.Extension
+﻿namespace LibVisioNgSharp.Extension
 {
     public static class DoubleExtension
     {
